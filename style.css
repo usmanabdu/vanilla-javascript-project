@@ -1,0 +1,51 @@
+  * {
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    color: white;
+  }
+
+  body {
+    background: #00000053;
+  }
+
+  .title {
+    font-weight: bold;
+    margin-top: 0.6rem;
+  }
+
+  .wrapper {
+    height: 300px;
+    width: 360px;
+    color: white;
+    background: #6d6b89;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 100px auto;
+  }
+
+  .inputContainer {
+    background: #9190a3;
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+
+  #billTotalInput,
+  #tipInput {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+  }
+
+  #bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6d6b89;
+  }
+
+  .buttonText {
+    color: #353959 !important;
+  }
+ 
